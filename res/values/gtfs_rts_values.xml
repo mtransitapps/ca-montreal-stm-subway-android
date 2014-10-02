@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="gtfs_rts_db_version">201409029</integer>
+    <string name="gtfs_rts_label">STM Subway</string>
+    <string name="gtfs_rts_authority">org.mtransit.android.ca_montreal_stm_subway.gtfs</string>
+    <string name="gtfs_status_for_poi_authority">org.mtransit.android.ca_montreal_stm_subway.gtfs</string>
+    <integer name="gtfs_rts_agency_type">1</integer>
+    <string name="gtfs_rts_area_min_lat">45.446294</string>
+    <string name="gtfs_rts_area_max_lat">45.596865</string>
+    <string name="gtfs_rts_area_min_lng">-73.721814</string>
+    <string name="gtfs_rts_area_max_lng">-73.521961</string>
+</resources>
