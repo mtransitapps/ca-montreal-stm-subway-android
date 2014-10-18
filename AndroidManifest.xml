@@ -1,7 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.mtransit.android.ca_montreal_stm_subway"
-    android:versionCode="6"
-    android:versionName="0.1r6_ALPHA" >
+    package="org.mtransit.android.ca_montreal_stm_subway" >
     <!-- DECLARES PERMISSIONS -->
     <permission
         android:name="org.mtransit.android.provider.permission.READ_PROVIDER"
