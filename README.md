@@ -1,4 +1,4 @@
 ca-montreal-stm-subway-android
 ==============================
 
-Montreal STM Subway for MT
+Montreal STM Subway for MonTransit BETA
