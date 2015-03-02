@@ -1,20 +1,21 @@
-Title: Métro STM Montréal(MonTransit)
+Title: Métro STM Montréal - MonTrans…
 ----------
 Short description:
-Métros STM de Montréal pour MonTransit BETA.
-Horaires. État de service temps réel.
+Métros STM de Montréal pour MonTransit BETA
+Horaires. État de service temps réel
 ----------
 What's new in this version?:
-BETA : Merci de votre patience pendant que les dernières fonctionnalités sont ajoutées et les derniers problèmes sont corrigés.
-
 Horaires du 5 Janvier 2015 au 29 Mars 2015.
+Tweets de @stminfo, @stm_Orange, @stm_Verte, @stm_Bleue, @stm_Jaune et @stm_nouvelles.
+
+BETA : Merci de votre patience pendant que les dernières fonctionnalités sont ajoutées et les derniers problèmes sont corrigés.
 ----------
 Full description:
+Cette app ajoute les informations des métros STM de Montréal à MonTransit BETA.
+
 BETA : Merci de votre patience pendant que les dernières fonctionnalités sont ajoutées et les derniers problèmes sont corrigés.
 
-Cette application ajoute les informations des métros STM de Montréal à MonTransit BETA.
-
-L'app contient les horaires plannifiées ainsi que l'état de service en temps réel de www.stm.info.
+Cette app fournie les horaires plannifiées ainsi que l'état de service en temps réel de www.stm.info et les dernières nouvelles de @stminfo, @stm_Orange, @stm_Verte, @stm_Bleue, @stm_Jaune et @stm_nouvelles sur Twitter.
 
 Les métros de la STM desservent Montréal, Laval et Longueuil au Québec, Canada.
 
@@ -33,4 +34,4 @@ https://github.com/mtransitapps/ca-montreal-stm-subway-android
 Cette application n'est pas associée à la Société de Transport de Montréal.
 
 Autorisations :
-- Autres : requis pour le chargement de l'état du service métro
+- Autres : requis pour le chargement de l'état du service métro et pour lire les nouvelles (Twitter)
