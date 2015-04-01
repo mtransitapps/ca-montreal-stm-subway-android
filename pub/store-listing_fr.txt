@@ -1,28 +1,24 @@
 Title: Métro STM Montréal - MonTrans…
 ----------
 Short description:
-Métros STM de Montréal pour MonTransit BETA
-Horaires. État de service. Nouvelles
+Métros STM de Montréal pour MonTransit.
+Horaires. État de service. Nouvelles.
 ----------
 What's new in this version?:
 Horaires du 30 Mars 2015 au 21 Juin 2015.
 Nouvelles de www.stm.info and www.mouvementcollectif.org.
 Tweets de @stminfo, @stm_Orange, @stm_Verte, @stm_Bleue, @stm_Jaune et @stm_nouvelles.
-
-BETA : Merci de votre patience pendant que les dernières fonctionnalités sont ajoutées et les derniers problèmes sont corrigés.
 ----------
 Full description:
-Cette app ajoute les informations des métros STM de Montréal à MonTransit BETA.
-
-BETA : Merci de votre patience pendant que les dernières fonctionnalités sont ajoutées et les derniers problèmes sont corrigés.
+Cette app ajoute les informations des métros STM de Montréal à MonTransit.
 
 Cette app fournie les horaires plannifiées ainsi que l'état de service en temps réel de www.stm.info et les dernières nouvelles de www.stm.info, www.mouvementcollectif.org, YouTube et @stminfo, @stm_Orange, @stm_Verte, @stm_Bleue, @stm_Jaune et @stm_nouvelles sur Twitter.
 
 Les métros de la STM desservent Montréal, Laval et Longueuil au Québec, Canada.
 
-Une fois cette application installée, l'application MonTransit BETA affichera les informations des métros (horaires ...).
+Une fois cette application installée, l'application MonTransit affichera les informations des métros (horaires ...).
 
-Cette application a seulement une icône temporaire et pas d'écran : télécharger l'app MonTransit BETA (gratuit) dans la section "Autres ..." ci-dessous ou en cliquant sur ce lien Google Play http://goo.gl/pCk5mV
+Cette application a seulement une icône temporaire et pas d'écran : télécharger l'app MonTransit (gratuit) dans la section "Autres ..." ci-dessous ou en cliquant sur ce lien Google Play http://goo.gl/pCk5mV
 
 Vous pouvez installer cette application sur la carte SD mais ce n'est pas recommandé.
 
