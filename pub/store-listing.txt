@@ -5,7 +5,7 @@ Montreal STM subways for MonTransit.
 Schedule. Real-Time Serv. Updates. News.
 ----------
 What's new in this version?:
-Schedule from March 30, 2015 to June 21, 2015 (remove Beaubien station).
+Schedule from June 22, 2015 to August 30, 2015.
 News from www.stm.info and www.mouvementcollectif.org.
 Tweets from @stminfo, @stm_Orange, @stm_Verte, @stm_Bleue, @stm_Jaune and @stm_nouvelles.
 ----------
