@@ -5,7 +5,7 @@ Montreal STM subways for MonTransit.
 Schedule. Real-Time Serv. Updates. News.
 ----------
 What's new in this version?:
-Schedule from August 31, 2015 to November 1, 2015.
+Schedule from November 2, 2015 to January 3, 2016.
 News from www.stm.info and www.mouvementcollectif.org.
 Tweets from @stminfo, @stm_Orange, @stm_Verte, @stm_Bleue, @stm_Jaune and @stm_nouvelles.
 ----------
