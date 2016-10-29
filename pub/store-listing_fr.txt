@@ -5,7 +5,7 @@ Métros STM de Montréal pour MonTransit.
 Horaires. État de service. Nouvelles.
 ----------
 What's new in this version?:
-Horaires du 29 août 2016 au 30 octobre 2016.
+Horaires du 31 octobre 2016 au 8 janvier 2017.
 Nouvelles de www.stm.info and www.mouvementcollectif.org.
 Tweets de @stminfo, @stm_Orange, @stm_Verte, @stm_Bleue, @stm_Jaune et @stm_nouvelles.
 ----------
