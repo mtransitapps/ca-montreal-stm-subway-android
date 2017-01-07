@@ -5,14 +5,14 @@ Montreal STM subways for MonTransit.
 Schedule. Real-Time Serv. Updates. News.
 ----------
 What's new in this version?:
-Schedule from October 31, 2016 to January 8, 2017.
-News from www.stm.info and www.mouvementcollectif.org.
+Schedule from January 9, 2017 to March 26, 2017.
+News from www.stm.info.
 Tweets from @stminfo, @stm_Orange, @stm_Verte, @stm_Bleue, @stm_Jaune and @stm_nouvelles.
 ----------
 Full description:
 This app adds Montreal STM subways information to MonTransit.
 
-This app provides the planned schedule as well as real time service updates from www.stm.info and the latest news from www.stm.info, www.mouvementcollectif.org, YouTube and @stminfo, @stm_Orange, @stm_Verte, @stm_Bleue, @stm_Jaune and @stm_nouvelles on Twitter.
+This app provides the planned schedule as well as real time service updates from www.stm.info and the latest news from www.stm.info, YouTube and @stminfo, @stm_Orange, @stm_Verte, @stm_Bleue, @stm_Jaune and @stm_nouvelles on Twitter.
 
 STM subways serve Montreal, Laval and Longueuil in Quebec, Canada.
 
@@ -31,7 +31,7 @@ https://github.com/mtransitapps/ca-montreal-stm-subway-android
 This application is not related with the Société de Transport de Montréal.
 
 Permissions:
-- Other: required to load subways service updates and read the news from www.stm.info, www.mouvementcollectif.org, YouTube and Twitter.
+- Other: required to load subways service updates and read the news from www.stm.info, YouTube and Twitter.
 ----------
 Application type: Applications
 ----------
