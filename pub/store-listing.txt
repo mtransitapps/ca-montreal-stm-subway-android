@@ -5,7 +5,7 @@ Montreal STM subways for MonTransit.
 Schedule. Real-Time Serv. Updates. News.
 ----------
 What's new in this version?:
-Schedule from August 26, 2019 to October 27, 2019.
+Schedule from August 26, 2019 to January 5, 2020.
 News from www.stm.info.
 Tweets from @stminfo, @stm_Orange, @stm_Verte, @stm_Bleue, @stm_Jaune and @stm_nouvelles.
 ----------
