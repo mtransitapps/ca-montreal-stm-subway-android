@@ -7,10 +7,10 @@
     <string-array name="twitter_screen_names">
         <item>stminfo</item>
         <item>stm_nouvelles</item>
-        <item>stm_Orange</item>
         <item>stm_Verte</item>
-        <item>stm_Bleue</item>
+        <item>stm_Orange</item>
         <item>stm_Jaune</item>
+        <item>stm_Bleue</item>
     </string-array>
     <string-array name="twitter_screen_names_lang">
         <item>@string/news_provider_language_multi_detect</item>
@@ -23,18 +23,18 @@
     <string-array name="twitter_screen_names_colors">
         <item>@string/twitter_color</item>
         <item>@string/twitter_color</item>
-        <item>E77710</item>
-        <item>008449</item>
-        <item>@string/twitter_color</item>
-        <item>FFD900</item>
+        <item>00B300</item><!-- Verte -->
+        <item>D95700</item><!-- Orange- -->
+        <item>FFD900</item><!-- Jaune -->
+        <item>0095E6</item><!-- Bleue -->
     </string-array>
     <string-array name="twitter_screen_names_target">
         <item>@string/twitter_target_for_poi_authority</item>
         <item>@string/twitter_target_for_poi_authority</item>
-        <item>org.mtransit.android.ca_montreal_stm_subway.gtfs-2</item>
         <item>org.mtransit.android.ca_montreal_stm_subway.gtfs-1</item>
-        <item>org.mtransit.android.ca_montreal_stm_subway.gtfs-5</item>
+        <item>org.mtransit.android.ca_montreal_stm_subway.gtfs-2</item>
         <item>org.mtransit.android.ca_montreal_stm_subway.gtfs-4</item>
+        <item>org.mtransit.android.ca_montreal_stm_subway.gtfs-5</item>
     </string-array>
     <integer-array name="twitter_screen_names_severity">
         <item>@integer/news_provider_severity_info_agency</item>
