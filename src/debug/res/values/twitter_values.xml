@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,UnusedResources,InconsistentArrays">
     <string name="twitter_authority">org.mtransit.android.debug.ca_montreal_stm_subway.news.twitter</string>
+    <string-array name="twitter_screen_names_target">
+        <item>@string/twitter_target_for_poi_authority</item>
+        <item>@string/twitter_target_for_poi_authority</item>
+        <item>org.mtransit.android.debug.ca_montreal_stm_subway.gtfs-1</item>
+        <item>org.mtransit.android.debug.ca_montreal_stm_subway.gtfs-2</item>
+        <item>org.mtransit.android.debug.ca_montreal_stm_subway.gtfs-4</item>
+        <item>org.mtransit.android.debug.ca_montreal_stm_subway.gtfs-5</item>
+    </string-array>
 </resources>
