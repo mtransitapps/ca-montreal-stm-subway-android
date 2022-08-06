@@ -1,2 +1,1 @@
-Montreal STM subways for MonTransit.
-Schedule. Real-Time Serv. Updates. News.
+Montreal STM subways for MonTransit. Schedule. Real-Time Service Updates. News.

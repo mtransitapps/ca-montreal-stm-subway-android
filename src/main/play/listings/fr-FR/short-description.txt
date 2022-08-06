@@ -1,2 +1,1 @@
-Métros STM de Montréal pour MonTransit.
-Horaires. État de service. Nouvelles.
+Métros STM de Montréal pour MonTransit. Horaires. État de service. Nouvelles.
