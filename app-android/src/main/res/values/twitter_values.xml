@@ -11,6 +11,14 @@
         <item>stm_Jaune</item>
         <item>stm_Bleue</item>
     </string-array>
+    <string-array name="twitter_screen_names_id">
+        <item>54692326</item>
+        <item>329276626</item>
+        <item>1465196582</item>
+        <item>1465166731</item>
+        <item>1465230403</item>
+        <item>1465203679</item>
+    </string-array>
     <string-array name="twitter_screen_names_lang">
         <item>@string/news_provider_language_multi_detect</item>
         <item>@string/news_provider_language_unknown_show_all</item>
