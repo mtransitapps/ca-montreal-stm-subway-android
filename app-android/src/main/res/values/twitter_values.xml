@@ -1,62 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,UnusedResources,InconsistentArrays">
-    <integer name="twitter_db_version">4</integer>
+    <integer name="twitter_db_version">5</integer>
     <string name="twitter_target_for_poi_authority">@string/gtfs_rts_authority</string>
-    <string name="twitter_color">@string/gtfs_rts_color</string>
     <string-array name="twitter_screen_names">
-        <!-- <item>stminfo</item> --><!-- too many users? RSS available -->
-        <!-- <item>stm_nouvelles</item> -->
-        <!-- <item>stm_Verte</item> -->
-        <!-- <item>stm_Orange</item> -->
-        <!-- <item>stm_Jaune</item> -->
-        <!-- <item>stm_Bleue</item> -->
+        <item>stm_Verte</item>
+        <item>stm_Orange</item>
+        <item>stm_Jaune</item>
+        <item>stm_Bleue</item>
+        <item>stminfo</item><!-- too many users? RSS available -->
+        <item>stm_nouvelles</item>
     </string-array>
     <string-array name="twitter_screen_names_id">
-        <!-- <item>54692326</item> -->
-        <!-- <item>329276626</item> -->
-        <!-- <item>1465196582</item> -->
-        <!-- <item>1465166731</item> -->
-        <!-- <item>1465230403</item> -->
-        <!-- <item>1465203679</item> -->
+        <item>1465196582</item>
+        <item>1465166731</item>
+        <item>1465230403</item>
+        <item>1465203679</item>
+        <item>54692326</item>
+        <item>329276626</item>
     </string-array>
     <string-array name="twitter_screen_names_lang">
-        <!-- <item>@string/news_provider_language_multi_detect</item> -->
-        <!-- <item>@string/news_provider_language_unknown_show_all</item> -->
-        <!-- <item>@string/news_provider_language_unknown_show_all</item> --><!-- language detection not working -->
-        <!-- <item>@string/news_provider_language_unknown_show_all</item> --><!-- language detection not working -->
-        <!-- <item>@string/news_provider_language_unknown_show_all</item> --><!-- language detection not working -->
-        <!-- <item>@string/news_provider_language_unknown_show_all</item> --><!-- language detection not working -->
+        <item>@string/news_provider_language_unknown_show_all</item><!-- language detection not working -->
+        <item>@string/news_provider_language_unknown_show_all</item><!-- language detection not working -->
+        <item>@string/news_provider_language_unknown_show_all</item><!-- language detection not working -->
+        <item>@string/news_provider_language_unknown_show_all</item><!-- language detection not working -->
+        <item>@string/news_provider_language_multi_detect</item>
+        <item>@string/news_provider_language_unknown_show_all</item>
     </string-array>
     <string-array name="twitter_screen_names_colors">
-        <!-- <item>@string/twitter_color</item> -->
-        <!-- <item>@string/twitter_color</item> -->
-        <!-- <item>00B300</item> --><!-- Verte -->
-        <!-- <item>D95700</item> --><!-- Orange- -->
-        <!-- <item>FFD900</item> --><!-- Jaune -->
-        <!-- <item>0095E6</item> --><!-- Bleue -->
+        <item>00B300</item><!-- 1. Verte -->
+        <item>D95700</item><!-- 2. Orange- -->
+        <item>FFD900</item><!-- 4. Jaune -->
+        <item>0095E6</item><!-- 5. Bleue -->
     </string-array>
     <string-array name="twitter_screen_names_target">
-        <!-- <item>@string/twitter_target_for_poi_authority</item> -->
-        <!-- <item>@string/twitter_target_for_poi_authority</item> -->
-        <!-- <item>org.mtransit.android.ca_montreal_stm_subway.gtfs-1</item> -->
-        <!-- <item>org.mtransit.android.ca_montreal_stm_subway.gtfs-2</item> -->
-        <!-- <item>org.mtransit.android.ca_montreal_stm_subway.gtfs-4</item> -->
-        <!-- <item>org.mtransit.android.ca_montreal_stm_subway.gtfs-5</item> -->
+        <item>org.mtransit.android.ca_montreal_stm_subway.gtfs-1</item>
+        <item>org.mtransit.android.ca_montreal_stm_subway.gtfs-2</item>
+        <item>org.mtransit.android.ca_montreal_stm_subway.gtfs-4</item>
+        <item>org.mtransit.android.ca_montreal_stm_subway.gtfs-5</item>
     </string-array>
     <integer-array name="twitter_screen_names_severity">
-        <!-- <item>@integer/news_provider_severity_info_agency</item> -->
-        <!-- <item>@integer/news_provider_severity_info_agency</item> -->
-        <!-- <item>@integer/news_provider_severity_warning_related_poi</item> -->
-        <!-- <item>@integer/news_provider_severity_warning_related_poi</item> -->
-        <!-- <item>@integer/news_provider_severity_warning_related_poi</item> -->
-        <!-- <item>@integer/news_provider_severity_warning_related_poi</item> -->
+        <item>@integer/news_provider_severity_warning_related_poi</item>
+        <item>@integer/news_provider_severity_warning_related_poi</item>
+        <item>@integer/news_provider_severity_warning_related_poi</item>
+        <item>@integer/news_provider_severity_warning_related_poi</item>
     </integer-array>
     <string-array name="twitter_screen_names_noteworthy">
-        <!-- <item>@string/news_provider_noteworthy_info</item> -->
-        <!-- <item>@string/news_provider_noteworthy_info</item> -->
-        <!-- <item>@string/news_provider_noteworthy_warning</item> -->
-        <!-- <item>@string/news_provider_noteworthy_warning</item> -->
-        <!-- <item>@string/news_provider_noteworthy_warning</item> -->
-        <!-- <item>@string/news_provider_noteworthy_warning</item> -->
+        <item>@string/news_provider_noteworthy_warning</item>
+        <item>@string/news_provider_noteworthy_warning</item>
+        <item>@string/news_provider_noteworthy_warning</item>
+        <item>@string/news_provider_noteworthy_warning</item>
+        <item>@string/news_provider_noteworthy_info</item>
+        <item>@string/news_provider_noteworthy_info</item>
     </string-array>
 </resources>
