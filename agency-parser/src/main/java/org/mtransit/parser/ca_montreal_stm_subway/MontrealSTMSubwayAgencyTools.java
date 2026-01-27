@@ -33,11 +33,6 @@ public class MontrealSTMSubwayAgencyTools extends DefaultAgencyTools {
 		return LANG_FR_EN;
 	}
 
-	@Override
-	public boolean defaultExcludeEnabled() {
-		return true;
-	}
-
 	@NotNull
 	@Override
 	public String getAgencyName() {
@@ -48,6 +43,12 @@ public class MontrealSTMSubwayAgencyTools extends DefaultAgencyTools {
 	@Override
 	public Integer getAgencyRouteType() {
 		return MAgency.ROUTE_TYPE_SUBWAY;
+	}
+
+	@Nullable
+	@Override
+	public String getServiceIdCleanupRegex() {
+		return "(^\\d{2}[A-Z]-)"; // starts with YY + 1 Letter + dash // 26J-Globaux-01-I
 	}
 
 	@Override
@@ -78,7 +79,7 @@ public class MontrealSTMSubwayAgencyTools extends DefaultAgencyTools {
 	}
 
 	private static final Cleaner FIX_BLEU = new Cleaner("(BLEU)", "BLEUE");
-	private static final Cleaner STARTS_WITH_LINES_ = new Cleaner("(^line \\d - )", true);
+	private static final Cleaner STARTS_WITH_LINES_ = new Cleaner("(^(line|ligne) (\\d+) - )", "$3: ", true);
 
 	@NotNull
 	@Override
@@ -128,7 +129,7 @@ public class MontrealSTMSubwayAgencyTools extends DefaultAgencyTools {
 		tripHeadsign = STATION_.matcher(tripHeadsign).replaceAll(SPACE);
 		tripHeadsign = CleanUtils.SAINT.matcher(tripHeadsign).replaceAll(CleanUtils.SAINT_REPLACEMENT);
 		tripHeadsign = CleanUtils.cleanStreetTypesFRCA(tripHeadsign);
-		return CleanUtils.cleanLabel(tripHeadsign);
+		return CleanUtils.cleanLabel(getFirstLanguageNN(), tripHeadsign);
 	}
 
 	@NotNull
