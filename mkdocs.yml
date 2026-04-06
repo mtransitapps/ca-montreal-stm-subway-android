@@ -9,6 +9,13 @@ nav:
     - 4: Jaune: routes/4.md
     - 5: Bleue: routes/5.md
 
+
+extra:
+  alternate:
+    - name: FR
+      link: /fr/
+      lang: fr
+
 theme:
   name: material
   logo: app-android/src/main/play/listings/en-US/graphics/icon/1.png
