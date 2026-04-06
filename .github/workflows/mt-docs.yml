@@ -6,6 +6,8 @@ on:
         - mm/website # DEBUG
     paths:
         - 'docs/**'
+        - 'mkdocs.yml'
+        - '.github/workflows/mt-docs.yml'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
