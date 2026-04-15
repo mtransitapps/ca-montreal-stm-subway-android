@@ -1,0 +1,49 @@
+name: MT Docs
+on:
+  push:
+    branches:
+        - master
+        - mm/website # DEBUG
+    paths:
+        - 'docs/**'
+        - 'mkdocs.yml'
+        - '.github/workflows/mt-docs.yml'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+#   contents: write
+  pages: write
+#   id-token: write
+
+jobs:
+  MT-DOCS-JOB:
+    name: Deploy Docs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install MkDocs and theme
+        run: pip install mkdocs-material
+
+      - name: Build docs
+        run: mkdocs build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/
+
+      - name: Deploy to GitHub Pages
+        id: deploy-pages
+        uses: actions/deploy-pages@v4
+

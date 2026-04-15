@@ -1,0 +1,24 @@
+site_name: Montréal STM Subway - MonTransit
+site_description: Montreal STM Subway information for MonTransit.
+
+nav:
+  - Home: index.md
+  - Route:
+    - 1-Verte: routes/1.md
+    - 2-Orange: routes/2.md
+    - 4-Jaune: routes/4.md
+    - 5-Bleue: routes/5.md
+
+
+extra:
+  alternate:
+    - name: FR
+      link: /fr/
+      lang: fr
+
+theme:
+  name: material
+  logo: app-android/src/main/play/listings/en-US/graphics/icon/1.png
+
+plugins:
+  - search
