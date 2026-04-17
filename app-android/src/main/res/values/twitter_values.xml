@@ -26,24 +26,24 @@
         <item>@string/news_provider_language_unknown_show_all</item><!-- language detection not working -->
     </string-array>
     <string-array name="twitter_screen_names_colors">
-        <item>@string/gtfs_rts_color</item>
-        <item>@string/gtfs_rts_color</item>
+        <item />
+        <item />
         <item>00B300</item><!-- 1. Verte -->
         <item>D95700</item><!-- 2. Orange- -->
         <item>FFD900</item><!-- 4. Jaune -->
         <item>0095E6</item><!-- 5. Bleue -->
     </string-array>
     <string-array name="twitter_screen_names_target">
-        <item>@string/twitter_target_for_poi_authority</item>
-        <item>@string/twitter_target_for_poi_authority</item>
+        <item />
+        <item />
         <item>org.mtransit.android.ca_montreal_stm_subway.gtfs-1</item>
         <item>org.mtransit.android.ca_montreal_stm_subway.gtfs-2</item>
         <item>org.mtransit.android.ca_montreal_stm_subway.gtfs-4</item>
         <item>org.mtransit.android.ca_montreal_stm_subway.gtfs-5</item>
     </string-array>
     <integer-array name="twitter_screen_names_severity">
-        <item>@integer/news_provider_severity_info_agency</item>
-        <item>@integer/news_provider_severity_info_agency</item>
+        <item />
+        <item />
         <item>@integer/news_provider_severity_warning_related_poi</item>
         <item>@integer/news_provider_severity_warning_related_poi</item>
         <item>@integer/news_provider_severity_warning_related_poi</item>

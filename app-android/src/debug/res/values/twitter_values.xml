@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,UnusedResources,InconsistentArrays">
     <string-array name="twitter_screen_names_target">
-        <item>@string/twitter_target_for_poi_authority</item>
-        <item>@string/twitter_target_for_poi_authority</item>
+        <item />
+        <item />
         <item>org.mtransit.android.ca_montreal_stm_subway.debug.gtfs-1</item>
         <item>org.mtransit.android.ca_montreal_stm_subway.debug.gtfs-2</item>
         <item>org.mtransit.android.ca_montreal_stm_subway.debug.gtfs-4</item>

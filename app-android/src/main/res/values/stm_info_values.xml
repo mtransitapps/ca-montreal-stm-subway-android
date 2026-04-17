@@ -1,6 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <integer name="stm_info_db_version">4</integer>
-    <string name="stm_info_status_for_poi_authority">@string/gtfs_rts_authority</string>
-    <string name="stm_info_agency_color">@string/gtfs_rts_color</string>
 </resources>
