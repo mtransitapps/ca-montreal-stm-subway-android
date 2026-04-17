@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,UnusedResources,InconsistentArrays">
+    <!-- ENABLED: nicer than RSS (incl. images) -->
+    <string-array name="twitter_screen_names">
+        <item>stm_Verte</item><!-- service update -->
+        <item>stm_Orange</item><!-- service update -->
+        <item>stm_Jaune</item><!-- service update -->
+        <item>stm_Bleue</item><!-- service update -->
+        <item>stminfo</item><!-- !≈ RSS -->
+        <item>stm_nouvelles</item><!-- == RSS -->
+    </string-array>
+    <string-array name="twitter_screen_names_id">
+        <item>1465196582</item>
+        <item>1465166731</item>
+        <item>1465230403</item>
+        <item>1465203679</item>
+        <item>54692326</item>
+        <item>329276626</item>
+    </string-array>
+    <string-array name="twitter_screen_names_lang">
+        <item>@string/news_provider_language_unknown_show_all</item><!-- language detection not working -->
+        <item>@string/news_provider_language_unknown_show_all</item><!-- language detection not working -->
+        <item>@string/news_provider_language_unknown_show_all</item><!-- language detection not working -->
+        <item>@string/news_provider_language_unknown_show_all</item><!-- language detection not working -->
+        <item>@string/news_provider_language_multi_detect</item>
+        <item>@string/news_provider_language_unknown_show_all</item>
+    </string-array>
+    <string-array name="twitter_screen_names_noteworthy">
+        <item>@string/news_provider_noteworthy_warning</item>
+        <item>@string/news_provider_noteworthy_warning</item>
+        <item>@string/news_provider_noteworthy_warning</item>
+        <item>@string/news_provider_noteworthy_warning</item>
+        <item>@string/news_provider_noteworthy_info</item>
+        <item>@string/news_provider_noteworthy_long_term</item>
+    </string-array>
+</resources>
