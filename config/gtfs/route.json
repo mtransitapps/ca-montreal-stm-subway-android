@@ -1,0 +1,88 @@
+{
+    "default_route_id_enabled": true,
+    "use_route_short_name_for_route_id": false,
+    "use_route_short_name_for_route_id_comment": "route ID == default route short name",
+    "route_short_name_cleaners_comment": "route short name in long name because of logo",
+    "route_short_name_cleaners": [
+        {
+            "regex": ".*"
+        }
+    ],
+    "route_to_short_name_configs": [
+        {
+            "route_id": "1",
+            "route_short_name": ""
+        },
+        {
+            "route_id": "2",
+            "route_short_name": ""
+        },
+        {
+            "route_id": "4",
+            "route_short_name": ""
+        },
+        {
+            "route_id": "5",
+            "route_short_name": ""
+        }
+    ],
+    "default_route_long_name_enabled": false,
+    "default_route_long_name_enabled_comment": "route ID used to target Twitter news ...",
+    "route_long_name_cleaners": [
+        {
+            "regex": "bleu",
+            "ignore_case": true,
+            "is_word": true,
+            "replacement": "Bleue"
+        },
+        {
+            "regex": "(^(line|ligne) (\\d+) - )",
+            "ignore_case": true,
+            "replacement": "$3: "
+        }
+    ],
+    "trip_headsign_cleaners": [
+        {
+            "regex": "universit[é|e][-| ]de[-| ]montr[é|e]al",
+            "ignore_case": true,
+            "is_word": true,
+            "replacement": "UdeM"
+        },
+        {
+            "regex": "universit[e|é][-| ]de[-| ]sherbrooke",
+            "ignore_case": true,
+            "is_word": true,
+            "replacement": "UdeS"
+        },
+        {
+            "regex": "\\s*\\-\\s*zone\\s+([a-z]+)",
+            "ignore_case": true
+        }
+    ],
+    "direction_finder_enabled": true,
+    "stop_code_cleaners_comment": "stop code not visible on official website",
+    "stop_code_cleaners": [
+        {
+            "regex": ".*"
+        }
+    ],
+    "stop_name_cleaners": [
+        {
+            "regex": "universit[é|e][-| ]de[-| ]montr[é|e]al",
+            "ignore_case": true,
+            "is_word": true,
+            "replacement": "UdeM"
+        },
+        {
+            "regex": "universit[e|é][-| ]de[-| ]sherbrooke",
+            "ignore_case": true,
+            "is_word": true,
+            "replacement": "UdeS"
+        },
+        {
+            "regex": "\\s*\\-\\s*zone\\s+([a-z]+)",
+            "ignore_case": true,
+            "replacement": "(Z:$1)"
+        }
+    ]
+}
