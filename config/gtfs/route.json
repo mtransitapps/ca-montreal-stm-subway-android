@@ -41,6 +41,17 @@
             "replacement": "$3: "
         }
     ],
+    "route_colors_ignored": [
+        "FFD900"
+    ],
+    "route_colors": [
+        {
+            "route_comment": "Jaune (FFD900 is too bright)",
+            "route_id": "4",
+            "route_short_name": "4",
+            "color": "FFE400"
+        }
+    ],
     "trip_headsign_cleaners": [
         {
             "regex": "universit[é|e][-| ]de[-| ]montr[é|e]al",
