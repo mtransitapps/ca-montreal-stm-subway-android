@@ -2,13 +2,13 @@
     "default_route_id_enabled": true,
     "use_route_short_name_for_route_id": false,
     "use_route_short_name_for_route_id_comment": "route ID == default route short name",
-    "route_short_name_cleaners_comment": "route short name in long name because of logo",
-    "route_short_name_cleaners": [
+    "route_short_name_cleaners_comment": "route short name used for api.stm.info GTFS-RT like alerts",
+    "route_short_name_cleaners_disabled": [
         {
             "regex": ".*"
         }
     ],
-    "route_to_short_name_configs": [
+    "route_to_short_name_configs_disabled": [
         {
             "route_id": "1",
             "route_short_name": ""
@@ -38,9 +38,10 @@
         {
             "regex": "(^(line|ligne) (\\d+) - )",
             "ignore_case": true,
-            "replacement": "$3: "
+            "replacement_not": "$3: "
         }
     ],
+    "route_colors_comment": "need to ignore FFD900 and then force FFD900 to avoid automatic darker color",
     "route_colors_ignored": [
         "FFD900"
     ],
