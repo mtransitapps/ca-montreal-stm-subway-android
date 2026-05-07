@@ -8,7 +8,7 @@
         <item>@string/gtfs_real_time_agency_url_header_api_key_value</item>
     </string-array>
     <string-array name="stm_info_api_service_update_description_severity_none">
-        <item>(normal m[e|é]tro service|service normal du m[é|e]tro)</item>
+        <item>(normal m[eé]tro service|service normal du m[eé]tro)</item>
     </string-array>
     <string-array name="stm_info_api_service_update_description_severity_info">
         <item>(service gradually|reprise)</item>
