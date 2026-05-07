@@ -38,7 +38,7 @@
         {
             "regex": "(^(line|ligne) (\\d+) - )",
             "ignore_case": true,
-            "replacement_not": "$3: "
+            "replacement_disabled": "$3: "
         }
     ],
     "route_colors_comment": "need to ignore FFD900 and then force FFD900 to avoid automatic darker color",
