@@ -46,7 +46,7 @@
     ],
     "route_colors": [
         {
-            "route_comment": "Jaune (FFD900 is too bright) https://www.stm.info/en/info/networks/metro/ligne-4---jaune",
+            "route_comment": "Jaune https://www.stm.info/en/info/networks/metro/ligne-4---jaune",
             "route_id": "4",
             "route_short_name": "4",
             "color": "FFD900"
