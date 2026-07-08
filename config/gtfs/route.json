@@ -72,6 +72,13 @@
         }
     ],
     "direction_finder_enabled": true,
+    "direction_headsign_cleaners": [
+        {
+            "regex": "(EAST|WEST|NORTH|SOUTH)",
+            "ignore_case": true,
+            "comment": "ignore directions from 'directions.txt'"
+        }
+    ],
     "stop_code_cleaners_comment": "stop code not visible on official website",
     "stop_code_cleaners": [
         {
