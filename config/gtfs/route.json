@@ -74,8 +74,9 @@
     "direction_finder_enabled": true,
     "direction_headsign_cleaners": [
         {
-            "regex": "(EAST|WEST|NORTH|SOUTH)",
+            "regex": "(EAST|WEST|NORTH|SOUTH|EST|OUEST|NORD|SUD)",
             "ignore_case": true,
+            "is_word": true,
             "comment": "ignore directions from 'directions.txt'"
         }
     ],
